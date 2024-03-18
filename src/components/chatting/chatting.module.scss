@@ -1,0 +1,18 @@
+.chattingContainer {
+    position: relative;
+    display: flex;
+    border: 1px solid;
+    .message {
+        border: 1px solid;
+        position: absolute;
+        right: 0;
+    }
+    .avatar {
+        border: 1px solid;
+        position: absolute;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

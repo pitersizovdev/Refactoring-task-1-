@@ -1,11 +1,13 @@
 import React from 'react'
-import Gradient from './components/gradient/Gradient'
+import Welcome from './pages/welcome/Welcome'
+import Home from './pages/home/Home'
 
 function App() {
 
   return (
     <>
-      <Gradient/>
+      <Welcome/>
+      <Home/>
     </>
   )
 }
