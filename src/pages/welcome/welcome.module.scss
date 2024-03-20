@@ -1,0 +1,74 @@
+$white: #FDFDFD;
+$black: #000000;
+$gray: #E8E8E8;
+$gray-navy: #93A0BB;
+$navy: #203562;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 0 1em;
+    .logoContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid;
+        position: absolute;
+        top: 2em;
+        left: 0;
+        right: 0;
+        color: $navy;
+    }
+    .chattingContainer {
+        display: flex;
+        flex-direction: column;
+        width: 22em;
+        border: 1px solid;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        .messageContainer{
+            margin-left: auto;
+            .message{
+                background-color: $white;
+                font-size: 1em;
+                border-radius: 1em;
+                border-bottom-left-radius: 0;
+                width: fit-content;
+                padding: 0.8em 0.8em;
+                margin: 1em 0;
+            }
+        }
+        .avatar {
+            img{
+                width: 70%;
+                height: auto;
+            }
+        }
+    }
+    .swipeContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid;
+        position: absolute;
+        bottom: 2em;
+        left: 0;
+        right: 0;
+      a{
+        color: $gray-navy;
+        text-decoration: underline;
+      }
+      .swiperContainer{
+        .swiperToggle{}
+        .swiper {}
+      }
+    }
+}
+  
