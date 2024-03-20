@@ -18,10 +18,13 @@ $navy: #203562;
         align-items: center;
         border: 1px solid;
         position: absolute;
-        top: 2em;
+        top: 1.3em;
         left: 0;
         right: 0;
         color: $navy;
+        font-family: 'Viennahny';
+        font-size: 3em;
+        line-height:0.85em;
     }
     .chattingContainer {
         display: flex;
@@ -42,6 +45,7 @@ $navy: #203562;
                 width: fit-content;
                 padding: 0.8em 0.8em;
                 margin: 1em 0;
+                font-weight: 300;
             }
         }
         .avatar {
@@ -64,8 +68,10 @@ $navy: #203562;
       a{
         color: $gray-navy;
         text-decoration: underline;
+        font-weight: 300;
       }
       .swiperContainer{
+        font-weight: 400;
         .swiperToggle{}
         .swiper {}
       }
