@@ -24,26 +24,6 @@ $navy: #203562;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        .messageContainer{
-            margin-left: auto;
-            .message{
-                background-color: $white;
-                font-size: 1rem;
-                border-radius: 1rem;
-                border-bottom-left-radius: 0;
-                width: fit-content;
-                padding: 0.8rem 0.8rem;
-                margin: 1rem 0;
-                line-height: 1.2rem;
-                font-weight: 300;
-            }
-        }
-        .avatar {
-            img{
-                width: 70%;
-                height: auto;
-            }
-        }
     }
     .swipeContainer {
         display: flex;

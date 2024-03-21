@@ -1,14 +1,43 @@
-import React from 'react'
-import styles from './chatting.module.scss'
-import Avatar from '../../assets/img/avatar.png'
+import React, { useEffect, useRef, useState } from 'react';
+import styles from './chatting.module.scss';
+import Avatar from '../../assets/img/avatar.png';
 
 const Chatting = () => {
-  return (
-    <div className={styles.chattingContainer}>
-      <div className={styles.message}><p>Привет! Меня зовут Петр –<br/> я Frontend разработчик.</p></div>
-      <div className={styles.avatar}><img src={Avatar}/></div>
-    </div>
-)
-}
+  const messages = useRef(null);
+  const [messageIndex, setMessageIndex] = useState(0);
 
-export default Chatting
+  useEffect(() => {
+    const messageContainer = messages.current;
+    const messageList = [
+      { id: 1, content: 'Привет!' },
+      { id: 2, content: 'Меня зовут Петр – <br/> я Frontend разработчик.' },
+      { id: 3, content: 'Нажми на кнопку, чтобы <br/> посмотреть мои работы.' },
+    ];
+
+    const interval = setInterval(() => {
+      if (messageIndex < messageList.length) {
+        const newMessage = document.createElement('li');
+        newMessage.classList.add(styles.message);
+        newMessage.innerHTML = `${messageList[messageIndex].content}`;
+
+        messageContainer.appendChild(newMessage);
+        setMessageIndex(messageIndex + 1);
+      } else {
+        clearInterval(interval);
+      }
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, [messageIndex]);
+
+  return (
+    <>
+      <div ref={messages} className={styles.messageContainer}>
+        <ul className="messages"></ul>
+      </div>
+      <div className={styles.avatar}><img src={Avatar}/></div>
+    </>
+  );
+};
+
+export default Chatting;
