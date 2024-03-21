@@ -21,7 +21,7 @@ const Welcome = () => {
   };
 
   useEffect(() => {
-    gsap.fromTo(btnContainer.current, { opacity: 0 }, { opacity: 1, duration: 1, delay: 4 });
+    gsap.fromTo(btnContainer.current, { opacity: 0 }, { opacity: 1, duration: 1, delay: 3.5 });
   }, []);
 
   return (
@@ -36,7 +36,7 @@ const Welcome = () => {
 
       <div ref={btnContainer} className={styles.btnContainer}>
         <button className={styles.btn} onClick={handlePortfolioClick}>
-          Посмотреть портфолио
+          <span>Посмотреть портфолио</span>
         </button>
         <a>Резюме PDF</a>
       </div>

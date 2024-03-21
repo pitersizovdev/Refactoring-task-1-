@@ -12,7 +12,6 @@ const Chatting = () => {
     const messageList = [
       { id: 1, content: 'Привет!' },
       { id: 2, content: 'Меня зовут Петр – <br/> я Frontend разработчик.' },
-      { id: 3, content: 'Нажми на кнопку, чтобы <br/> посмотреть мои работы.' },
     ];
 
     const interval = setInterval(() => {
