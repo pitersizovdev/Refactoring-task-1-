@@ -23,3 +23,18 @@
     }
 
 }
+
+
+@media (max-height: 650px) {
+	.avatar img{
+		width: 50%;
+        padding: 0 0 0 2rem;
+	}
+}
+
+@media (max-height: 600px) {
+	.avatar img{
+		width: 40%;
+        padding: 0 0 0 3rem;
+	}
+}
