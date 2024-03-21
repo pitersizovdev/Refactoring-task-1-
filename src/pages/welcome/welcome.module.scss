@@ -9,28 +9,17 @@ $navy: #203562;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
-    padding: 0 1em;
+    padding: 0 1rem;
     .logoContainer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid;
         position: absolute;
-        top: 1.3em;
+        top: 2rem;
         left: 0;
         right: 0;
-        color: $navy;
-        font-family: 'Viennahny';
-        font-size: 3em;
-        line-height:0.85em;
     }
     .chattingContainer {
         display: flex;
         flex-direction: column;
-        width: 22em;
-        border: 1px solid;
+        width: 22rem;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -39,12 +28,13 @@ $navy: #203562;
             margin-left: auto;
             .message{
                 background-color: $white;
-                font-size: 1em;
-                border-radius: 1em;
+                font-size: 1rem;
+                border-radius: 1rem;
                 border-bottom-left-radius: 0;
                 width: fit-content;
-                padding: 0.8em 0.8em;
-                margin: 1em 0;
+                padding: 0.8rem 0.8rem;
+                margin: 1rem 0;
+                line-height: 1.2rem;
                 font-weight: 300;
             }
         }
@@ -60,20 +50,15 @@ $navy: #203562;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border: 1px solid;
         position: absolute;
-        bottom: 2em;
+        bottom: 2rem;
         left: 0;
         right: 0;
       a{
         color: $gray-navy;
         text-decoration: underline;
-        font-weight: 300;
-      }
-      .swiperContainer{
         font-weight: 400;
-        .swiperToggle{}
-        .swiper {}
+        cursor: pointer;
       }
     }
 }

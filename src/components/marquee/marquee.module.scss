@@ -1,0 +1,44 @@
+.marqueeContainer {
+    font-family: 'Viennahny';
+    font-size: 3rem;
+    line-height: 2.5rem;
+    color: #203562;
+  
+    .piterContainer {
+        display: flex;
+        overflow: hidden;
+      .piter {
+
+        white-space: nowrap;
+        animation: movertl 240s linear infinite;
+      }
+    }
+  
+    .sizovContainer {
+        display: flex;
+        overflow: hidden;
+      .sizov {
+        white-space: nowrap;
+        animation: moveltr 240s linear infinite;
+      }
+    }
+  }
+  
+  @keyframes movertl {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes moveltr {
+    100% {
+      transform: translateX(0);
+    }
+    0% {
+      transform: translateX(-100%);
+    }
+  }
+  
