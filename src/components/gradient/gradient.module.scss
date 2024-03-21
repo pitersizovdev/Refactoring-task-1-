@@ -1,13 +1,18 @@
 :root {
-  --color-bg1: rgb(255, 255, 255);
-  --color-bg2: rgb(255, 255, 255);
-  --color1: 18, 113, 255;
-  --color2: 221, 74, 255;
-  --color3: 100, 220, 255;
-  --color4: 255, 25, 25;
-  --color5: 18, 113, 255;
-  --color-interactive: 140, 100, 255;
-  --circle-size: 1800px;
+
+$gray: rgb(232, 232, 232);
+$gray-navy: rgb(147, 160, 187);
+$navy: rgb(46, 92, 190);
+
+  --color-bg1: rgb(232, 232, 232);
+  --color-bg2: rgb(232, 232, 232);
+  --color1: 46, 92, 190;
+  --color2: 94, 139, 238;
+  --color3: 46, 92, 190;
+  --color4: 94, 139, 238;
+  --color5: 46, 92, 190;
+  --color-interactive: 46, 92, 190;
+  --circle-size: 1100px;
   --blending: hard-light;
 }
 @keyframes moveInCircle {
