@@ -19,13 +19,14 @@ $navy: #203562;
     .chattingContainer {
         display: flex;
         flex-direction: column;
-        width: 22rem;
+        width: 25rem;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    .swipeContainer {
+
+    .btnContainer {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -34,12 +35,13 @@ $navy: #203562;
         bottom: 2rem;
         left: 0;
         right: 0;
-      a{
-        color: $gray-navy;
-        text-decoration: underline;
-        font-weight: 400;
-        cursor: pointer;
-      }
+
+          a{
+            color: $gray-navy;
+            text-decoration: underline;
+            font-weight: 400;
+            cursor: pointer;
+          }
     }
 }
   
