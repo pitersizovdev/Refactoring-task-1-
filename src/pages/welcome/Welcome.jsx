@@ -23,8 +23,8 @@ const Welcome = () => {
       </div>
       
       <div ref={btnContainer} className={styles.btnContainer}>
-        <a>Резюме PDF</a>
         <BtnNext/>
+        <a>Резюме PDF</a>
       </div>
     </div>
   )
