@@ -2,6 +2,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import { gsap } from 'gsap';
 import styles from './home.module.scss';
 import Contact from '../../components/contact/Contact';
+import Card from '../../components/card/Card';
 
 function Home() {
 
@@ -16,7 +17,7 @@ function Home() {
       </div>
 
       <div className={styles.mainContainer}>
-        123
+        <Card/>
       </div>
 
       <div className={styles.contactContainer}>

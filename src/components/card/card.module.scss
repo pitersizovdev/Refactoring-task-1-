@@ -1,0 +1,75 @@
+$white: #FDFDFD;
+$black: #000000;
+$gray: #E8E8E8;
+$gray-navy: #93A0BB;
+$navy: #203562;
+
+.card{
+    display: flex;
+    flex-direction: column;
+    min-width: 160px;
+    max-width: 400px;
+    color: $black;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem 1rem 1.5rem 1rem;
+    text-align: center;
+    border-radius: 0.5em;
+    border-radius: 1rem;
+    border: 0px #aeb9ce solid;
+    box-shadow: 0 0px 4px #93A0BB,
+                0 0 0 #93A0BB,
+                5px 5px 10px #93a0bb85,
+                inset 0 -3px 6px #93A0BB,
+                inset 0 2px 1px rgba(255,255,255,0.2);
+    .cardImg{
+        img{
+            width: 100%;
+        }
+    }
+    .cardDesc{
+        text-align: left;
+        padding: 0 3rem 0 0;
+        h1{
+            font-size: 2rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            margin-top: 1rem;
+        }
+        p{
+            font-size: 1rem;
+            font-weight: 200;
+            margin-top: 1rem;
+        }
+    }
+    .cardTeam{
+        display: flex;
+        margin: 2rem 0;
+        gap: 1rem;
+        .member{
+            width: 3rem;
+            height: 3rem;
+            background-color: #93A0BB;
+            border-radius: 50%
+        }
+    }
+    .cardTags{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: $gray-navy;
+        .tag{
+            span{
+                font-weight: 300;
+            }
+        }
+        .stack{
+            display: flex;
+            gap: 1.25rem;
+            img{
+                height: 1.5rem;
+
+            }
+        }
+    }
+}
