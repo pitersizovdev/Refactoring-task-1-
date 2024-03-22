@@ -1,0 +1,68 @@
+$white: #FDFDFD;
+$black: #000000;
+$gray: #E8E8E8;
+$gray-navy: #93A0BB;
+$navy: #203562;
+
+.contactCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 160px;
+    color: #93A0BB;
+    font-size: 1rem;
+    font-family: 'Inter';
+    font-weight: 500;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 0.5em;
+    border: 0px #aeb9ce solid;
+    box-shadow: 0 0px 4px #93A0BB,
+                0 0 0 #93A0BB,
+                5px 5px 10px #93a0bb85,
+                inset 0 -3px 6px #93A0BB,
+                inset 0 2px 1px rgba(255,255,255,0.2);
+    .git{
+        display: flex;
+        .gitImg{
+            width: 3rem;
+            height: 3rem;
+            background-image: url('../../assets/img/gitImg.svg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 0.25rem;
+            margin: 0 0.5rem 0 0;
+        }
+        .gitLinks{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 0.8rem;
+            text-align: left;
+            color: $black;
+            h3{
+                font-weight: 400;
+            }
+            a{
+                font-size: 0.75rem;
+                font-weight: 300;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+    .contacts{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .social{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            img{
+                width: 1.5rem;
+            }
+        }
+    }
+}

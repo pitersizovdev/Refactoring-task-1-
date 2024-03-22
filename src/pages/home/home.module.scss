@@ -12,8 +12,10 @@ $navy: #203562;
     align-items: center;
     height: 100dvh;
     padding: 0rem 1rem;
+    margin: 0 auto;
     z-index: 1;
     background-color: $gray;
+    max-width: 1200px;
     .headerContainer {
         margin-top: 1.5rem;
     }
@@ -26,60 +28,6 @@ $navy: #203562;
     .contactContainer {
         margin-bottom: 3rem;
         width: 100%;
-        .contactCard{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            color: #93A0BB;
-            font-size: 1rem;
-            font-family: 'Inter';
-            font-weight: 500;
-            padding: 0.5rem;
-            text-align: center;
-            border-radius: 0.5em;
-            border: 0px #aeb9ce solid;
-
-            box-shadow: 0 0px 4px #93A0BB,
-                        0 0 0 #93A0BB,
-                        5px 5px 10px #93a0bb85,
-                        inset 0 -3px 6px #93A0BB,
-                        inset 0 2px 1px rgba(255,255,255,0.2);
-            .git{
-                display: flex;
-                .gitImg{
-                    width: 3rem;
-                    height: 3rem;
-                    background-color: #203562;
-                    border-radius: 0.25rem;
-                    margin: 0 0.5rem 0 0;
-                }
-                .gitLinks{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-between;
-                    text-align: left;
-                    color: $black;
-                    h3{
-                        font-weight: 400;
-                    }
-                    a{
-                        font-size: 0.75rem;
-                        font-weight: 300;
-                    }
-                }
-            }
-            .contacts{
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                gap: 1rem;
-                .social{
-                    width: 1.2rem;
-                    height: 1rem;
-                    background-color: #93A0BB;
-                }
-            }
-        }
     }
 }
 
