@@ -12,7 +12,7 @@ function Home() {
 
       <div className={styles.navContainer}>
         <div className={styles.nav}>
-          123
+          
         </div>
       </div>
 
