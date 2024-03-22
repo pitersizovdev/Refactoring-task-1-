@@ -3,6 +3,7 @@ import { gsap } from 'gsap';
 import styles from './home.module.scss';
 import Contact from '../../components/contact/Contact';
 import Card from '../../components/card/Card';
+import Slider from '../../components/slider/Slider';
 
 function Home() {
 
@@ -17,7 +18,7 @@ function Home() {
       </div>
 
       <div className={styles.mainContainer}>
-        <Card/>
+        <Slider/>
       </div>
 
       <div className={styles.contactContainer}>

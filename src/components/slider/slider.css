@@ -1,0 +1,21 @@
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 20rem;
+  height: 40rem;
+  filter: blur(2px);
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.swiper-slide-active {
+  filter: blur(0px);
+}
+

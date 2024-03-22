@@ -9,6 +9,7 @@ $navy: #203562;
     flex-direction: column;
     min-width: 160px;
     max-width: 400px;
+    background-color: $gray;
     color: $black;
     font-size: 1rem;
     font-weight: 500;
@@ -23,8 +24,9 @@ $navy: #203562;
                 inset 0 -3px 6px #93A0BB,
                 inset 0 2px 1px rgba(255,255,255,0.2);
     .cardImg{
+        display: flex;
         img{
-            width: 100%;
+            max-width: 100%;
         }
     }
     .cardDesc{
