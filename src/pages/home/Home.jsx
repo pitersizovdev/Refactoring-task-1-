@@ -1,31 +1,41 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { gsap } from 'gsap';
 import styles from './home.module.scss';
-import Gradient from '../../components/gradient/Gradient';
 
 function Home() {
-  const [isVisible, setIsVisible] = useState(false);
-  const btnContainer = useRef(null);
-
-  useEffect(() => {
-    gsap.fromTo(
-      btnContainer.current,
-      { opacity: 0 },
-      {
-        opacity: 1,
-        duration: 1,
-        delay: 1,
-        onComplete: () => {
-          setIsVisible(true);
-        }
-      }
-    );
-  }, []);
 
   return (
-    <div className={styles.container} style={{ opacity: isVisible ? 1 : 0 }} ref={btnContainer}>
-      <Gradient />
+    <>
+    <div className={styles.container} >
+
+      <div className={styles.navContainer}>
+        <div className={styles.nav}>
+          123
+        </div>
+      </div>
+
+      <div className={styles.mainContainer}>
+        123
+      </div>
+
+      <div className={styles.contactContainer}>
+        <div className={styles.contactCard}>
+          <div className={styles.git}>
+            <div className={styles.gitImg}></div>
+            <div className={styles.gitLinks}>
+              <h3 className={styles.gitName}>pitersizovdev</h3>
+              <a className={styles.gitLink}>view on GitHub</a>
+            </div>
+          </div>
+          <div className={styles.contacts}>
+            <div className={styles.social}></div>
+            <div className={styles.social}></div>
+            <div className={styles.social}></div>
+          </div>
+        </div>
+      </div>
     </div>
+    </>
   );
 }
 
