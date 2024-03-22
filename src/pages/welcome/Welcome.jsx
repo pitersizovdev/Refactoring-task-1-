@@ -26,6 +26,7 @@ const Welcome = () => {
 
   return (
     <div className={styles.container}>
+
       <div ref={logoContainer} className={styles.logoContainer}>
         <Marquee />
       </div>
@@ -40,6 +41,7 @@ const Welcome = () => {
         </button>
         <a>Резюме PDF</a>
       </div>
+      
     </div>
   );
 };
