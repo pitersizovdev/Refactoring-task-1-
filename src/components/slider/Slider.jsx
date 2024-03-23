@@ -24,11 +24,11 @@ export default function Slider() {
         coverflowEffect={{
           rotate: 10,
           stretch: 0,
-          depth: 400,
+          depth: 415,
           modifier: 1,
           slideShadows: false,
         }}
-        pagination={true}
+        pagination={false}
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
       >
@@ -47,7 +47,6 @@ export default function Slider() {
         <SwiperSlide>
             <Card/>
         </SwiperSlide>
-
       </Swiper>
     </>
   );
