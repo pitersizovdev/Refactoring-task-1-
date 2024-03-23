@@ -6,7 +6,7 @@ import ReduxSvg from '../../assets/icons/redux.svg'
 import WebpackSvg from '../../assets/icons/webpack.svg'
 import SassSvg from '../../assets/icons/sass.svg'
 
-const Card = () => {
+const Card5 = () => {
   return (
     <div className={styles.card}>
         <div className={styles.cardImg}>
@@ -34,4 +34,4 @@ const Card = () => {
   )
 }
 
-export default Card
+export default Card5

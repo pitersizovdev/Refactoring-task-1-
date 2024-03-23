@@ -2,10 +2,9 @@ import React from 'react'
 import styles from './card.module.scss'
 import CardImage from '../../assets/img/lmp.png'
 import ReactSvg from '../../assets/icons/react.svg'
-import ReduxSvg from '../../assets/icons/redux.svg'
-import WebpackSvg from '../../assets/icons/webpack.svg'
-import SassSvg from '../../assets/icons/sass.svg'
-import Semen from '../../assets/img/sem.png'
+import Treejs from '../../assets/icons/tree.svg'
+import Framer from '../../assets/icons/framer.svg'
+import Fire from '../../assets/icons/fire.svg'
 
 const Card1 = () => {
   return (
@@ -15,19 +14,20 @@ const Card1 = () => {
         </div>
         <div className={styles.cardDesc}>
             <h1>local music party</h1>
-            <p>Сайт для мобильного приложения по поиску локальных музыкальных мероприятий</p>
+            <p>Разработка сайта для мобильного приложения по поиску локальных музыкальных мероприятий.  <p/> Настройка под Firebase API <br/>и рендер 3D компонентов.</p>
         </div>
         <div className={styles.cardTeam}>
-            <img src={Semen}/>
-            <img src={Semen}/>
+            <div className={styles.piter}></div>
+            <div className={styles.semen}></div>
+            <div className={styles.nastya}></div>
         </div>
         <div className={styles.cardTags}>
-            <div className={styles.tag}><span>#тимлидер</span></div>
+            <div className={styles.tag}><span>#вкоманде</span></div>
             <div className={styles.stack}>
                 <img src={ReactSvg}/>
-                <img src={ReduxSvg}/>
-                <img src={WebpackSvg}/>
-                <img src={SassSvg}/>
+                <img src={Treejs}/>
+                <img src={Fire}/>
+                <img src={Framer}/>
             </div>
         </div>
     </div>

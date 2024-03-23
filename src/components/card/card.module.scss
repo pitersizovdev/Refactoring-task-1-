@@ -8,7 +8,6 @@ $navy: #203562;
     display: flex;
     flex-direction: column;
     min-width: 160px;
-    max-width: 400px;
     background-color: $gray;
     color: $black;
     font-size: 1rem;
@@ -23,18 +22,20 @@ $navy: #203562;
                 5px 5px 10px #93a0bb85,
                 inset 0 -3px 6px #93A0BB,
                 inset 0 2px 1px rgba(255,255,255,0.2);
+                margin: 1rem 0;
     .cardImg{
         display: flex;
         img{
-            max-width: 100%;
+            width: 18rem;
+            height: 10rem ;
             border-radius: 0.5rem;
         }
     }
     .cardDesc{
         text-align: left;
-        padding: 0 3rem 0 0;
+        padding: 0 1rem 0 0;
         h1{
-            font-size: 2rem;
+            font-size: 1.65rem;
             text-transform: uppercase;
             font-weight: 300;
             margin-top: 1rem;
@@ -49,10 +50,36 @@ $navy: #203562;
         display: flex;
         margin: 2rem 0;
         gap: 1rem;
-        img{
+        .piter{
             width: 3rem;
             height: 3rem;
-            border-radius: 50%
+            border-radius: 50%;
+            background-image: url('../../assets/img/avatart.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .semen{
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            background-image: url('../../assets/img/sem.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .nastya{
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            background-image: url('../../assets/img/nastya.png');
+            background-color: #93A0BB;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .member{
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            background-color: transparent;
         }
     }
     .cardTags{
@@ -67,9 +94,11 @@ $navy: #203562;
         }
         .stack{
             display: flex;
+            align-items: center;
+            justify-content: center;
             gap: 1.25rem;
             img{
-                height: 1.5rem;
+                height: 1.25rem;
 
             }
         }

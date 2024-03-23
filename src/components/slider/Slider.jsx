@@ -13,6 +13,10 @@ import './slider.css';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 import Card from '../card/Card';
 import Card1 from '../card/Card1';
+import Card2 from '../card/Card2';
+import Card3 from '../card/Card3';
+import Card4 from '../card/Card4';
+import Card5 from '../card/Card5';
 
 export default function Slider() {
   return (
@@ -37,16 +41,16 @@ export default function Slider() {
             <Card1/>
         </SwiperSlide>
         <SwiperSlide>
-            <Card/>
+            <Card2/>
         </SwiperSlide>
         <SwiperSlide>
-            <Card/>
+            <Card3/>
         </SwiperSlide>
         <SwiperSlide>
-            <Card/>
+            <Card4/>
         </SwiperSlide>
         <SwiperSlide>
-            <Card/>
+            <Card5/>
         </SwiperSlide>
       </Swiper>
     </>

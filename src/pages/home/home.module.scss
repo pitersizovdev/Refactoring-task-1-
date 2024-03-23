@@ -112,7 +112,7 @@ $navy: #203562;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 2rem;
+      margin-top: 0rem;
       animation: moveLogo 3s ease;
       z-index: 999;
       .myName{
@@ -130,6 +130,7 @@ $navy: #203562;
         align-items: center;
         animation: moveRightToLeft 3s ease forwards;
         z-index: 99;
+        padding: 1.5rem;
         
     }
     .contactContainer {

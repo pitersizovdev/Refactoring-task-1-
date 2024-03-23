@@ -1,20 +1,20 @@
 import React from 'react'
 import styles from './card.module.scss'
-import CardImage from '../../assets/img/cardImg.png'
-import ReactSvg from '../../assets/icons/react.svg'
-import ReduxSvg from '../../assets/icons/redux.svg'
-import WebpackSvg from '../../assets/icons/webpack.svg'
-import SassSvg from '../../assets/icons/sass.svg'
+import CardImage from '../../assets/img/pinkcheesecake.png'
+import Html from '../../assets/icons/html.svg'
+import Boostrap from '../../assets/icons/boostrap.svg'
+import Gsap from '../../assets/icons/gsap.svg'
+import Emailjs from '../../assets/icons/emailjs.svg'
 
-const Card = () => {
+const Card2 = () => {
   return (
     <div className={styles.card}>
         <div className={styles.cardImg}>
             <img src={CardImage}/>
         </div>
         <div className={styles.cardDesc}>
-            <h1>local music party</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In blanditiis, quisquam nam obcaecati, vitae at quasi accusantium delectus explicabo iure facilis velit aliquid quas qui corporis quae voluptatem quibusdam libero.</p>
+            <h1>pink cheesecake</h1>
+            <p>Лендинг для частной пекарни. <p/> Реализовано подключение формы обратоной связи для обработки новых заявок по электронной почте черзе сервис EmailJS.</p>
         </div>
         <div className={styles.cardTeam}>
             <div className={styles.member}></div>
@@ -22,16 +22,16 @@ const Card = () => {
             <div className={styles.member}></div>
         </div>
         <div className={styles.cardTags}>
-            <div className={styles.tag}><span>#тимлидер</span></div>
+            <div className={styles.tag}><span>#точновсрок</span></div>
             <div className={styles.stack}>
-                <img src={ReactSvg}/>
-                <img src={ReduxSvg}/>
-                <img src={WebpackSvg}/>
-                <img src={SassSvg}/>
+                <img src={Html}/>
+                <img src={Boostrap}/>
+                <img src={Emailjs}/>
+                <img src={Gsap}/>
             </div>
         </div>
     </div>
   )
 }
 
-export default Card
+export default Card2
