@@ -4,40 +4,87 @@ $gray: #E8E8E8;
 $gray-navy: #93A0BB;
 $navy: #203562;
 
+:root {
+
+  --color1: 46, 92, 190;
+  --color2: 46, 92, 190;
+  --color3: 46, 92, 190;
+  --color4: 94, 139, 238;
+  --color5: 94, 139, 238;
+  --color-interactive: 94, 139, 238;
+  --circle-size: 900px;
+
+}
 @keyframes moveInCircle {
-    0% {
-      transform: rotate(0deg);
-    }
-    50% {
-      transform: rotate(180deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
   }
-  @keyframes moveVertical {
-    0% {
-      transform: translateY(-50%);
-    }
-    50% {
-      transform: translateY(50%);
-    }
-    100% {
-      transform: translateY(-50%);
-    }
+  50% {
+    transform: rotate(180deg);
   }
-    
-  @keyframes moveHorizontal {
-    0% {
-      transform: translateX(-50%) translateY(-50%);
-    }
-    50% {
-      transform: translateX(50%) translateY(50%);
-    }
-    100% {
-      transform: translateX(-50%) translateY(-50%);
-    }
+  100% {
+    transform: rotate(360deg);
   }
+}
+@keyframes moveVertical {
+  0% {
+    transform: translateY(-50%);
+  }
+  50% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+  
+@keyframes moveHorizontal {
+  0% {
+    transform: translateX(-50%) translateY(-50%);
+  }
+  50% {
+    transform: translateX(50%) translateY(50%);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
+@keyframes moveRightToLeft {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  20% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+@keyframes moveToUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  20% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+@keyframes animationOpasity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
   
 .container {
     font-family: 'Inter';
@@ -59,24 +106,28 @@ $navy: #203562;
         display: flex;
         justify-content: center;
         align-items: center;
+        animation: moveRightToLeft 3s ease forwards;
+        z-index: 99;
         
     }
     .contactContainer {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
         width: 100%;
         z-index: 10;
         max-width: 1200px;
+        animation: moveToUp 3s ease forwards;
     }
 
     svg {
         display: none;
     }
     .gradientsContainer {
-        filter: url(#goo) blur(30px);
+        filter: url(#goo) blur(20px);
         width: 100dvw;
         height: 100dvh;
         overflow: hidden;
         position: absolute;
+        animation: animationOpasity 1.5s ease;
         .g1 {
         
             position: absolute;
