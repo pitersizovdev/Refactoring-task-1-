@@ -3,6 +3,7 @@ import { gsap } from 'gsap';
 import styles from './home.module.scss';
 import Contact from '../../components/contact/Contact';
 import Slider from '../../components/slider/Slider';
+import Logo from '../../assets/icons/logo.svg'
 
 function Home() {
   
@@ -47,10 +48,10 @@ function Home() {
             </filter>
           </defs>
         </svg>
-      <div className={styles.navContainer}>
-        <div className={styles.nav}>
-        </div>
-      </div>
+      {/*<div className={styles.navContainer}>
+        <div className={styles.nav}></div>
+        <h1 className={styles.myName}>PITER <br/> SIZOV</h1>
+      </div>*/}
       <div className={styles.mainContainer}>
         <Slider/>
         

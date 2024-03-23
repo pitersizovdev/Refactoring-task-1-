@@ -77,6 +77,16 @@ $navy: #203562;
     opacity: 1;
   }
 }
+@keyframes moveLogo {
+  0% {
+    transform: translateY(-100%);
+    z-index: 99;
+  }
+  100% {
+    transform: translateY(0%);
+    z-index: 99;
+  }
+}
 @keyframes animationOpasity {
   0% {
     opacity: 0;
@@ -99,7 +109,19 @@ $navy: #203562;
     overflow: hidden;
     
     .navContainer {
-        margin-top: 0rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+      animation: moveLogo 3s ease;
+      z-index: 999;
+      .myName{
+        font-family: 'Viennahny';
+        font-size: 3rem;
+        line-height: 2.5rem;
+        color: $navy;
+        
+      }
     }
     .mainContainer {
         flex: 1;

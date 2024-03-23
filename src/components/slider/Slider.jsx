@@ -12,6 +12,7 @@ import './slider.css';
 // import required modules
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 import Card from '../card/Card';
+import Card1 from '../card/Card1';
 
 export default function Slider() {
   return (
@@ -33,7 +34,7 @@ export default function Slider() {
         className="mySwiper"
       >
         <SwiperSlide>
-            <Card/>
+            <Card1/>
         </SwiperSlide>
         <SwiperSlide>
             <Card/>
