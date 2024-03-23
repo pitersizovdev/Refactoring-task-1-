@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './card.module.scss'
-import CardImage from '../../assets/img/cardImg.png'
-import ReactSvg from '../../assets/icons/react.svg'
-import ReduxSvg from '../../assets/icons/redux.svg'
-import WebpackSvg from '../../assets/icons/webpack.svg'
-import SassSvg from '../../assets/icons/sass.svg'
+import CardImage from '../../assets/img/greenlist.png'
+import Nextjs from '../../assets/icons/nextjs.svg'
+import Solidity from '../../assets/icons/solidity.svg'
+import Sass from '../../assets/icons/sass.svg'
+import Зostgres from '../../assets/icons/postgres.svg'
 
 const Card3 = () => {
   return (
@@ -13,8 +13,8 @@ const Card3 = () => {
             <img src={CardImage}/>
         </div>
         <div className={styles.cardDesc}>
-            <h1>local music party</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In blanditiis, quisquam nam obcaecati, vitae at quasi accusantium delectus explicabo iure facilis velit aliquid quas qui corporis quae voluptatem quibusdam libero.</p>
+            <h1>greenlist</h1>
+            <p>Сервис для обмена криптовалют <br/> и мониторинга цен на ведущие крипто-активы.<p/>Авторизация и регистрация пользователей в базе данных.</p>
         </div>
         <div className={styles.cardTeam}>
             <div className={styles.member}></div>
@@ -22,12 +22,12 @@ const Card3 = () => {
             <div className={styles.member}></div>
         </div>
         <div className={styles.cardTags}>
-            <div className={styles.tag}><span>#тимлидер</span></div>
+            <div className={styles.tag}><span>#крипто</span></div>
             <div className={styles.stack}>
-                <img src={ReactSvg}/>
-                <img src={ReduxSvg}/>
-                <img src={WebpackSvg}/>
-                <img src={SassSvg}/>
+                <img src={Nextjs}/>
+                <img src={Solidity}/>
+                <img src={Зostgres}/>
+                <img src={Sass}/>
             </div>
         </div>
     </div>
