@@ -5,6 +5,7 @@ import Contact from '../../components/contact/Contact';
 import Slider from '../../components/slider/Slider';
 import Logo from '../../assets/icons/logo.svg'
 
+
 function Home() {
   
   
@@ -56,7 +57,7 @@ function Home() {
         <Slider/>
         
       </div>
-      <div className={styles.contactContainer}>
+      <div className={styles.contactContainer} >
         <Contact/>
       </div>
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Tooltip } from 'react-tooltip'
 import styles from './card.module.scss'
 import CardImage from '../../assets/img/lmp.png'
 import ReactSvg from '../../assets/icons/react.svg'
@@ -17,9 +18,9 @@ const Card1 = () => {
             <p>Разработка сайта для мобильного приложения по поиску локальных музыкальных мероприятий.  <p/> Настройка под Firebase API <br/>и рендер 3D компонентов.</p>
         </div>
         <div className={styles.cardTeam}>
-            <div className={styles.piter}></div>
-            <div className={styles.semen}></div>
-            <div className={styles.nastya}></div>
+            <a className="piter"><div className={styles.piter}/></a>
+            <a className="semen"><div className={styles.semen}/></a>
+            <a className="nastya"><div className={styles.nastya}/></a>
         </div>
         <div className={styles.cardTags}>
             <div className={styles.tag}><span>#вкоманде</span></div>
@@ -30,6 +31,9 @@ const Card1 = () => {
                 <img src={Framer}/>
             </div>
         </div>
+    <Tooltip anchorSelect=".piter" place="top">Петр Сизов <br/>Teamleader</Tooltip>
+    <Tooltip anchorSelect=".semen" place="top">Семен Максисов <br/>3D artist</Tooltip>
+    <Tooltip anchorSelect=".nastya" place="top">Анастасия Предеина <br/>UI / UX</Tooltip>
     </div>
   )
 }
