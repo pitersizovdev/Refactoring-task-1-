@@ -24,10 +24,10 @@ const Card2 = () => {
         <div className={styles.cardTags}>
             <div className={styles.tag}><span>#точновсрок</span></div>
             <div className={styles.stack}>
-                <img src={Html}/>
-                <img src={Css}/>
-                <img src={Emailjs}/>
-                <img src={Gsap}/>
+                <img src={Html} title='HTML'/>
+                <img src={Css} title='CSS'/>
+                <img src={Emailjs} title='Email.js'/>
+                <img src={Gsap} title='GSAP'/>
             </div>
         </div>
     </div>

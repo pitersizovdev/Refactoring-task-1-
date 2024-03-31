@@ -25,10 +25,10 @@ const Card1 = () => {
         <div className={styles.cardTags}>
             <div className={styles.tag}><span>#тимлид</span></div>
             <div className={styles.stack}>
-                <img src={ReactSvg}/>
-                <img src={Treejs}/>
-                <img src={Fire}/>
-                <img src={Framer}/>
+                <img src={ReactSvg} title='React.js'/>
+                <img src={Treejs} title='Tree.js'/>
+                <img src={Fire} title='Firebase'/>
+                <img src={Framer} title='Framer Motion'/>
             </div>
         </div>
     <Tooltip anchorSelect=".piter" place="top">Петр Сизов <br/>Teamleader</Tooltip>

@@ -22,8 +22,8 @@ const Card5 = () => {
         <div className={styles.cardTags}>
             <div className={styles.tag}><span>#оффтоп</span></div>
             <div className={styles.stack}>
-                <img src={Py}/>
-                <img src={PyCharm}/>
+                <img src={Py} title='Python'/>
+                <img src={PyCharm} title='Pycharm'/>
             </div>
         </div>
     </div>

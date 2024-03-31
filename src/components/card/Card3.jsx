@@ -24,10 +24,10 @@ const Card3 = () => {
         <div className={styles.cardTags}>
             <div className={styles.tag}><span>#крипто</span></div>
             <div className={styles.stack}>
-                <img src={Nextjs}/>
-                <img src={Solidity}/>
-                <img src={Зostgres}/>
-                <img src={Sass}/>
+                <img src={Nextjs} title='Next.js'/>
+                <img src={Solidity} title='Solidity'/>
+                <img src={Зostgres} title='PostgreSQL'/>
+                <img src={Sass} title='Sass CSS'/>
             </div>
         </div>
     </div>

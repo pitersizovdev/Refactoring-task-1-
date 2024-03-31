@@ -8,17 +8,17 @@ const Contact = () => {
   return (
     <div className={styles.contactCard}>
     <div className={styles.git}>
-      <div className={styles.gitImg}></div>
+      <div className={styles.gitImg} title='GitHub'></div>
       <div className={styles.gitLinks}>
-        <h3 className={styles.gitName}>pitersizovdev</h3>
-        <a className={styles.gitLink}>view on GitHub</a>
+        <h3 className={styles.gitName} title='GitHub'>pitersizovdev</h3>
+        <a className={styles.gitLink} title='GitHub'>view on GitHub</a>
       </div>
     </div>
     <div className={styles.contacts}>
       <div className={styles.social}>
-        <img src={Tel}/>
-        <img src={Hh}/>
-        <img src={Mail}/>
+        <img src={Tel} title='Telegram'/>
+        <img src={Hh} title='hh.ru'/>
+        <img src={Mail} title='E-mail'/>
       </div>
       <div className={styles.social}></div>
       <div className={styles.social}></div>
