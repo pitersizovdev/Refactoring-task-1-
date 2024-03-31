@@ -64,6 +64,10 @@ $navy: #203562;
             gap: 2rem;
             img{
                 width: 1.5rem;
+                cursor: pointer;
+            }
+            img:hover{
+                fill: #203562;
             }
         }
     }

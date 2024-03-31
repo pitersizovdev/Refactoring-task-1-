@@ -7,7 +7,8 @@ $navy: #203562;
 .card{
     display: flex;
     flex-direction: column;
-    min-width: 160px;
+    min-width: 290px;
+    min-height: 400px;
     background-color: $gray;
     color: $black;
     font-size: 1rem;
@@ -29,6 +30,7 @@ $navy: #203562;
             width: 18rem;
             height: 10rem ;
             border-radius: 0.5rem;
+            cursor: pointer;
         }
     }
     .cardDesc{
@@ -39,6 +41,7 @@ $navy: #203562;
             text-transform: uppercase;
             font-weight: 300;
             margin-top: 1rem;
+            cursor: pointer;
         }
         p{
             font-size: 1rem;
@@ -57,6 +60,7 @@ $navy: #203562;
             background-image: url('../../assets/img/avatart.png');
             background-size: cover;
             background-repeat: no-repeat;
+            cursor:default;
         }
         .semen{
             width: 3rem;
@@ -65,6 +69,7 @@ $navy: #203562;
             background-image: url('../../assets/img/sem.png');
             background-size: cover;
             background-repeat: no-repeat;
+            cursor:default;
         }
         .nastya{
             width: 3rem;
@@ -74,6 +79,37 @@ $navy: #203562;
             background-color: #93A0BB;
             background-size: cover;
             background-repeat: no-repeat;
+            cursor:default;
+        }
+        .lena{
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            background-image: url('../../assets/img/lena.png');
+            background-color: #93A0BB;
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor:default;
+        }
+        .dasha{
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            background-image: url('../../assets/img/dasha.png');
+            background-color: #93A0BB;
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor:default;
+        }
+        .sonya{
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            background-image: url('../../assets/img/sonya.png');
+            background-color: #93A0BB;
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor:default;
         }
         .member{
             width: 3rem;

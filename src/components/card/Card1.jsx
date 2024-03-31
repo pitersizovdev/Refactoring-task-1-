@@ -23,7 +23,7 @@ const Card1 = () => {
             <a className="nastya"><div className={styles.nastya}/></a>
         </div>
         <div className={styles.cardTags}>
-            <div className={styles.tag}><span>#вкоманде</span></div>
+            <div className={styles.tag}><span>#тимлид</span></div>
             <div className={styles.stack}>
                 <img src={ReactSvg}/>
                 <img src={Treejs}/>

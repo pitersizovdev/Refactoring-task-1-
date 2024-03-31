@@ -41,10 +41,10 @@ export default function Slider() {
             <Card1/>
         </SwiperSlide>
         <SwiperSlide>
-            <Card2/>
+            <Card3/>
         </SwiperSlide>
         <SwiperSlide>
-            <Card3/>
+            <Card2/>
         </SwiperSlide>
         <SwiperSlide>
             <Card4/>

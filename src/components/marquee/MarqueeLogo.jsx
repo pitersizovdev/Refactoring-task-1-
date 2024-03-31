@@ -8,9 +8,17 @@ const MarqueeLogo = () => {
       <div className={styles.piterContainer}>
         <span className={styles.piter} >PITERPITERPITERPITERPITERPITER</span>
         <span className={styles.piter} >PITERPITERPITERPITERPITERPITER</span>
+        <span className={styles.piter} >PITERPITERPITERPITERPITERPITER</span>
+        <span className={styles.piter} >PITERPITERPITERPITERPITERPITER</span>
+        <span className={styles.piter} >PITERPITERPITERPITERPITERPITER</span>
+        <span className={styles.piter} >PITERPITERPITERPITERPITERPITER</span>
       </div>
 
       <div className={styles.sizovContainer}>
+        <span className={styles.sizov} >SIZOVSIZOVSIZOVSIZOVSIZOVSIZOV</span>
+        <span className={styles.sizov} >SIZOVSIZOVSIZOVSIZOVSIZOVSIZOV</span>
+        <span className={styles.sizov} >SIZOVSIZOVSIZOVSIZOVSIZOVSIZOV</span>
+        <span className={styles.sizov} >SIZOVSIZOVSIZOVSIZOVSIZOVSIZOV</span>
         <span className={styles.sizov} >SIZOVSIZOVSIZOVSIZOVSIZOVSIZOV</span>
         <span className={styles.sizov} >SIZOVSIZOVSIZOVSIZOVSIZOVSIZOV</span>
       </div>

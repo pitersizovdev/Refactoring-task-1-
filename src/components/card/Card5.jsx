@@ -1,10 +1,8 @@
 import React from 'react'
 import styles from './card.module.scss'
-import CardImage from '../../assets/img/cardImg.png'
-import ReactSvg from '../../assets/icons/react.svg'
-import ReduxSvg from '../../assets/icons/redux.svg'
-import WebpackSvg from '../../assets/icons/webpack.svg'
-import SassSvg from '../../assets/icons/sass.svg'
+import CardImage from '../../assets/img/py.png'
+import Py from '../../assets/icons/py.svg'
+import PyCharm from '../../assets/icons/pyc.svg'
 
 const Card5 = () => {
   return (
@@ -13,8 +11,8 @@ const Card5 = () => {
             <img src={CardImage}/>
         </div>
         <div className={styles.cardDesc}>
-            <h1>local music party</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In blanditiis, quisquam nam obcaecati, vitae at quasi accusantium delectus explicabo iure facilis velit aliquid quas qui corporis quae voluptatem quibusdam libero.</p>
+            <h1>Escape from Saratov</h1>
+            <p>Построенна на языке Python <br/>с использованием библиотеки Pygame и IDE Pycharm.</p>
         </div>
         <div className={styles.cardTeam}>
             <div className={styles.member}></div>
@@ -22,12 +20,10 @@ const Card5 = () => {
             <div className={styles.member}></div>
         </div>
         <div className={styles.cardTags}>
-            <div className={styles.tag}><span>#тимлидер</span></div>
+            <div className={styles.tag}><span>#оффтоп</span></div>
             <div className={styles.stack}>
-                <img src={ReactSvg}/>
-                <img src={ReduxSvg}/>
-                <img src={WebpackSvg}/>
-                <img src={SassSvg}/>
+                <img src={Py}/>
+                <img src={PyCharm}/>
             </div>
         </div>
     </div>

@@ -67,6 +67,7 @@ function Home() {
             <div className={styles.g2}></div>
             <div className={styles.g3}></div>
             <div className={styles.g4}></div>
+            <div className={styles.g5}></div>
         </div>
     </div>
     </>
