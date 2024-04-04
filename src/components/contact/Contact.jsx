@@ -16,9 +16,9 @@ const Contact = () => {
     </div>
     <div className={styles.contacts}>
       <div className={styles.social}>
-        <img src={Tel} title='Telegram'/>
-        <img src={Hh} title='hh.ru'/>
-        <img src={Mail} title='E-mail'/>
+        <a href='https://t.me/pvibes2k'><img src={Tel} title='Telegram'/></a>
+        <a href='https://spb.hh.ru/resume/ef4c04c4ff0cbc05410039ed1f753247573978?customDomain=1'><img src={Hh} title='hh.ru'/></a>
+        <a href='mailto:pitersizov.dev@gmail.com'><img src={Mail} title='E-mail' alt='E-mail'/></a>
       </div>
       <div className={styles.social}></div>
       <div className={styles.social}></div>
