@@ -10,10 +10,10 @@ const Card2 = () => {
   return (
     <div className={styles.card}>
         <div className={styles.cardImg}>
-            <a href='https://github.com/pitersizovdev/pink-cheesecake'><img src={CardImage}/></a>
+            <a href='https://github.com/pitersizovdev/pink-cheesecake' target="_blank"><img src={CardImage}/></a>
         </div>
         <div className={styles.cardDesc}>
-        <a href='pink-cheesecake.vercel.app'><h1>pink cheesecake</h1></a>
+        <a href='pink-cheesecake.vercel.app' target="_blank"><h1>pink cheesecake</h1></a>
             <p>Лендинг для частной пекарни. <p/> Реализовано подключение формы обратоной связи для обработки новых заявок по электронной почте черзе сервис EmailJS.</p>
         </div>
         <div className={styles.cardTeam}>

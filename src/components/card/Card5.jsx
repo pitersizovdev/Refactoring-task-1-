@@ -8,10 +8,10 @@ const Card5 = () => {
   return (
     <div className={styles.card}>
         <div className={styles.cardImg}>
-            <a href='https://github.com/pitersizovdev/EscapeFromSatatovGame-pyton'><img src={CardImage}/></a>
+            <a href='https://github.com/pitersizovdev/EscapeFromSatatovGame-pyton' target='_blank'><img src={CardImage}/></a>
         </div>
         <div className={styles.cardDesc}>
-            <h1>Escape from Saratov</h1>
+            <a href='https://replit.com/@pitersizov/EFS#main.py' target='_blank'><h1>Escape from Saratov</h1></a>
             <p>Приключенческая игра, <br/>построенная на языке Python <br/>с использованием библиотеки Pygame и IDE Pycharm.</p>
         </div>
         <div className={styles.cardTeam}>

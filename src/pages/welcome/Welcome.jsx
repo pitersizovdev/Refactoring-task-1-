@@ -4,6 +4,7 @@ import styles from './welcome.module.scss';
 import Marquee from '../../components/marquee/MarqueeLogo';
 import Chatting from '../../components/chatting/Chatting';
 import gsap from 'gsap'
+import Resume from '../../../public/Sizov_Piter_Resume.pdf'
 
 const Welcome = () => {
   const navigate = useNavigate();
@@ -14,10 +15,9 @@ const Welcome = () => {
   const handlePortfolioClick = () => {
     gsap.to(logoContainer.current, { y: -200, duration: 1 });
     gsap.to([chattingContainer.current, btnContainer.current], { opacity: 0, duration: 1, delay: 0.5 });
-    // Для перехода на страницу /home после завершения анимации, используйте navigate
     setTimeout(() => {
       navigate('/home');
-    }, 1500); // Подождать 1.5 секунды перед переходом
+    }, 1500);
   };
 
   useEffect(() => {
@@ -39,7 +39,7 @@ const Welcome = () => {
         <button className={styles.btn} onClick={handlePortfolioClick}>
           <span>Посмотреть портфолио</span>
         </button>
-        <a>Резюме PDF</a>
+        <a href={Resume} download>Резюме PDF</a>
       </div>
       
     </div>

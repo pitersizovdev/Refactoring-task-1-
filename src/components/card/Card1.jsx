@@ -11,10 +11,10 @@ const Card1 = () => {
   return (
     <div className={styles.card}>
         <div className={styles.cardImg}>
-        <a href='https://github.com/pitersizovdev/local-music-party'><img src={CardImage}/></a>
+        <a href='https://github.com/pitersizovdev/local-music-party' target="_blank"><img src={CardImage}/></a>
         </div>
         <div className={styles.cardDesc}>
-        <a href='https://local-music-party.vercel.app/'><h1>local music party</h1></a>
+        <a href='https://local-music-party.vercel.app/' target="_blank"><h1>local music party</h1></a>
             <p>Разработка сайта для мобильного приложения по поиску локальных музыкальных мероприятий.  <p/> Настройка под Firebase API <br/>и рендер 3D компонентов.</p>
         </div>
         <div className={styles.cardTeam}>

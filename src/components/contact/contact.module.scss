@@ -42,6 +42,7 @@ $navy: #203562;
             text-align: left;
             color: $black;
             h3{
+                cursor: default;
                 font-weight: 400;
                 font-size: 1.25rem;
             }
@@ -50,6 +51,7 @@ $navy: #203562;
                 font-weight: 300;
                 text-decoration: underline;
                 cursor: pointer;
+                color: $black;
             }
         }
     }
