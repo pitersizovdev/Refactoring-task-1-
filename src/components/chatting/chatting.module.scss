@@ -3,6 +3,7 @@
     margin: 0 0 0 10rem;
     width: 14rem;
     .message{
+
         background-color: #fff;
         font-size: 1rem;
         border-radius: 1rem;
@@ -12,7 +13,7 @@
         margin-top: 1rem;
         line-height: 1.2rem;
         font-weight: 300;
-        transition: transform 0.3s ease; 
+        transition: transform 0.3s ease-out; 
         ul li{
             margin-right: auto;
         }

@@ -95,7 +95,13 @@ $navy: #203562;
     opacity: 1;
   }
 }
-  
+  .instruct{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translate(90%, -50%);
+    z-index: 999;
+  }
 .container {
     font-family: 'Inter';
     display: flex;

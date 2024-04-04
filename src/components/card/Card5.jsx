@@ -12,7 +12,7 @@ const Card5 = () => {
         </div>
         <div className={styles.cardDesc}>
             <h1>Escape from Saratov</h1>
-            <p>Построенна на языке Python <br/>с использованием библиотеки Pygame и IDE Pycharm.</p>
+            <p>Приключенческая игра, <br/>построенная на языке Python <br/>с использованием библиотеки Pygame и IDE Pycharm.</p>
         </div>
         <div className={styles.cardTeam}>
             <div className={styles.member}></div>

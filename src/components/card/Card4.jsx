@@ -17,7 +17,7 @@ const Card4 = () => {
         <div className={styles.cardDesc}>
             <h1>после пар</h1>
             <p>Концепция информационного портала для студентов.</p>
-            <p>Удобная афиша и путиводитель<br/> для гостей и жителей города <br/>Санкт-Петербург.</p>
+            <p>Удобная афиша и путеводитель<br/> для гостей и жителей города <br/>Санкт-Петербург.</p>
         </div>
         <div className={styles.cardTeam}>
             <a className="piter"><div className={styles.piter}/></a>

@@ -4,10 +4,21 @@ import Avatar from '../../assets/img/avatar.png';
 import gsap from 'gsap';
 
 const Chatting = () => {
+
+
+  const avatar = useRef(null);
+
+  useEffect(() => {
+    const avatarElem = avatar.current;
+
+    gsap.fromTo(avatarElem, { opacity: 0}, { opacity: 1, duration: 1.25, delay: 0 });
+
+  }, []);
   const messages = useRef(null);
   const [messageIndex, setMessageIndex] = useState(0);
 
   useEffect(() => {
+    
     const messageContainer = messages.current;
     const messageList = [
       { id: 1, content: 'Привет!' },
@@ -38,7 +49,7 @@ const Chatting = () => {
       <div ref={messages} className={styles.messageContainer}>
         <ul className="messages"></ul>
       </div>
-      <div className={styles.avatar}><img src={Avatar}/></div>
+      <div ref={avatar} className={styles.avatar}><img src={Avatar} alt="Avatar" /></div>
     </>
   );
 };

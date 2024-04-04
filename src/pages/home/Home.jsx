@@ -1,13 +1,33 @@
 import React, { useRef, useEffect, useState } from 'react';
+import Lottie from 'react-lottie';
 import { gsap } from 'gsap';
 import styles from './home.module.scss';
 import Contact from '../../components/contact/Contact';
 import Slider from '../../components/slider/Slider';
 import Logo from '../../assets/icons/logo.svg'
+import * as Instruct from '../../instruct.json'
 
 
 function Home() {
+
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 3000); // секунды, через сколько появится
+
+    return () => clearTimeout(timer);
+  }, []);
   
+  const defaultOptions = {
+    loop: false,
+    autoplay: true, 
+    animationData: Instruct.default,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
+  };
   
   const [curX, setCurX] = useState(0);
   const [curY, setCurY] = useState(0);
@@ -39,7 +59,15 @@ function Home() {
 
   return (
     <>
+    <div className={styles.instruct}>
+      {isLoading ? (
+        <div></div>
+      ) : (
+        <Lottie options={defaultOptions} height={300} width={300} />
+      )}
+    </div>
     <div className={styles.container}>
+      
     <svg xmlns="http://www.w3.org/2000/svg">
           <defs>
             <filter id="goo">
