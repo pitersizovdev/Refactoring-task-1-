@@ -67,7 +67,6 @@ function Home() {
       )}
     </div>
     <div className={styles.container}>
-      
     <svg xmlns="http://www.w3.org/2000/svg">
           <defs>
             <filter id="goo">
@@ -81,7 +80,10 @@ function Home() {
         <div className={styles.nav}></div>
         <h1 className={styles.myName}>PITER <br/> SIZOV</h1>
       </div>*/}
+
       <div className={styles.mainContainer}>
+
+
         <Slider/>
         
       </div>

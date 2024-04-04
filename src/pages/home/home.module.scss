@@ -95,13 +95,16 @@ $navy: #203562;
     opacity: 1;
   }
 }
-  .instruct{
-    display: flex;
-    position: absolute;
-    top: 50%;
-    transform: translate(90%, -50%);
-    z-index: 999;
-  }
+.instruct {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  z-index: 999;
+}
 .container {
     font-family: 'Inter';
     display: flex;
@@ -247,6 +250,13 @@ $navy: #203562;
   }
   
 
-
+@media (max-width: 480px) {
+  .instruct{
+    scale: 0.5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
 
 
