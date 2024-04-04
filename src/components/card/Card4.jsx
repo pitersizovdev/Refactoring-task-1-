@@ -37,9 +37,9 @@ const Card4 = () => {
 
 
         <Tooltip anchorSelect=".piter" place="top">Петр Сизов<br/>User Experience</Tooltip>
-            <Tooltip anchorSelect=".lena" place="top">Елена Романова<br/>Organisator</Tooltip>
-            <Tooltip anchorSelect=".dasha" place="top">Даша Задорожная<br/>User Interface</Tooltip>
-            <Tooltip anchorSelect=".sonya" place="top">Софья Некрасова<br/>Ai / Ps</Tooltip>
+        <Tooltip anchorSelect=".lena" place="top">Елена Романова<br/>Organisator</Tooltip>
+        <Tooltip anchorSelect=".dasha" place="top">Даша Задорожная<br/>User Interface</Tooltip>
+        <Tooltip anchorSelect=".sonya" place="top">Софья Некрасова<br/>Ai / Ps</Tooltip>
     </div>
   )
 }
