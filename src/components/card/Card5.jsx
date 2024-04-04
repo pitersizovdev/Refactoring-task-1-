@@ -8,7 +8,7 @@ const Card5 = () => {
   return (
     <div className={styles.card}>
         <div className={styles.cardImg}>
-            <img src={CardImage}/>
+            <a href='https://github.com/pitersizovdev/EscapeFromSatatovGame-pyton'><img src={CardImage}/></a>
         </div>
         <div className={styles.cardDesc}>
             <h1>Escape from Saratov</h1>

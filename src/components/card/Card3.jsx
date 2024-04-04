@@ -10,10 +10,10 @@ const Card3 = () => {
   return (
     <div className={styles.card}>
         <div className={styles.cardImg}>
-            <img src={CardImage}/>
+            <a href='https://github.com/pitersizovdev/greenlist-exchange'><img src={CardImage}/></a>
         </div>
         <div className={styles.cardDesc}>
-            <h1>greenlist</h1>
+        <a href='https://github.com/pitersizovdev/greenlist-exchange'><h1>greenlist</h1></a>
             <p>Сервис для обмена криптовалют <br/> и мониторинга цен на ведущие крипто-активы.<p/>Авторизация и регистрация пользователей в базе данных.</p>
         </div>
         <div className={styles.cardTeam}>

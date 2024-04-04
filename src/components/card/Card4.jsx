@@ -12,7 +12,7 @@ const Card4 = () => {
   return (
     <div className={styles.card}>
         <div className={styles.cardImg}>
-            <img src={CardImage}/>
+            <a href='https://www.figma.com/file/3BeaOF7RWV4lRzdC6zZUWs/%D0%A1%D1%82%D1%83%D0%B4%D0%A1%D0%B0%D0%B9%D1%82?type=design&mode=design&t=DLdfKdyz2LJ056up-1'><img src={CardImage}/></a>
         </div>
         <div className={styles.cardDesc}>
             <h1>после пар</h1>
