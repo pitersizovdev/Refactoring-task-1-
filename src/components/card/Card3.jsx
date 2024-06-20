@@ -10,11 +10,11 @@ const Card3 = () => {
   return (
     <div className={styles.card}>
         <div className={styles.cardImg}>
-            <a href='https://github.com/pitersizovdev/greenlist-exchange' target="_blank"><img src={CardImage}/></a>
+            <a href='https://github.com/pitersizovdev/taskchain' target="_blank"><img src={CardImage}/></a>
         </div>
         <div className={styles.cardDesc}>
-        <a href='https://github.com/pitersizovdev/greenlist-exchange' target="_blank"><h1>greenlist</h1></a>
-            <p>Сервис для обмена криптовалют <br/> и мониторинга цен на ведущие крипто-активы.<p/>Авторизация и регистрация пользователей в базе данных.</p>
+        <a href='https://github.com/pitersizovdev/taskchain' target="_blank"><h1>Taskchain</h1></a>
+            <p>Мессенджкр для обмена докуметами <br/> в распределенной сети IPFS.<p/>Авторизация и регистрация пользователей в базе данных.</p>
         </div>
         <div className={styles.cardTeam}>
             <div className={styles.member}></div>
@@ -22,7 +22,7 @@ const Card3 = () => {
             <div className={styles.member}></div>
         </div>
         <div className={styles.cardTags}>
-            <div className={styles.tag}><span>#крипто</span></div>
+            <div className={styles.tag}><span>#блокчейн</span></div>
             <div className={styles.stack}>
                 <img src={Nextjs} title='Next.js'/>
                 <img src={Solidity} title='Solidity'/>
